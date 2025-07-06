@@ -551,18 +551,28 @@ blockquote p {
 }
 
 @media (max-width: 768px) {
+    /* Remove timeline styling for mobile */
     .timeline {
-        padding-left: 50px;
+        padding-left: 0;
     }
     .timeline::before {
-        left: 18px;
+        display: none; /* Hide the vertical line */
+    }
+    .timeline-item {
+        margin-bottom: 40px;
     }
     .timeline-item::before {
-        left: 12px;
+        display: none; /* Hide the timeline dots */
     }
     .timeline-date {
-        width: 45px;
-        left: 0;
+        position: static;
+        width: auto;
+        left: auto;
+        text-align: left;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        display: block;
+        font-weight: 700;
     }
 }
 
