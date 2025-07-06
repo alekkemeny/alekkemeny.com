@@ -1022,7 +1022,7 @@ blockquote {
     height: 170px !important;
     margin-top: -75px !important;
     margin-right: 27px !important;
-    margin-bottom: -75px !important;
+    margin-bottom: -70px !important;
   }
   
   .princeton-logo {
@@ -1063,7 +1063,7 @@ blockquote {
     height: 50px !important;
     margin-top: -15px !important;
     margin-right: 0 !important;
-    margin-bottom: 3px !important;
+    margin-bottom: -7px !important;
   }
   
   .inkwell-logo-text {
@@ -1071,7 +1071,7 @@ blockquote {
     font-size: 1.8rem !important;
     margin-top: -15px !important;
     margin-right: -15px !important;
-    margin-bottom: -15px !important;
+    margin-bottom: -25px !important;
   }
   
   /* Fix NaCs image and vacuum chamber video for mobile */
